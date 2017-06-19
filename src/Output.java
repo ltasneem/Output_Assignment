@@ -47,6 +47,23 @@ public class Output {
 	    num3 = keyboard.nextDouble();
 	  
 		 System.out.println( "The total is : " + (num1 + num2 + num3));
+		 
+		 
+		 /*Input/Output Change Assignment*/
+		 
+		 //Scanner keyboard = new Scanner(System.in);
+
+		   double number1, number2;
+
+		    System.out.print( "First temperature? " );
+		    number1 = keyboard.nextDouble();
+
+		    System.out.print( "Second temperature? " );
+		    number2 = keyboard.nextDouble();
+
+		    System.out.println("The max value is : " + Math.max(number1, number2));
+		    
+		    System.out.println("The avg value is : " + (number1+number2)/2);
 
 		}
 
