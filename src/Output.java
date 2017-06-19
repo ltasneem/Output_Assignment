@@ -30,8 +30,25 @@ public class Output {
 	    System.out.println( "Your height is " + height);
 	    
 	    System.out.println( "Your GPA is " + gpa);
+	    
+	    /*Input/Output Debugging Assignment*/
+	    
+	    Scanner keyboard = new Scanner(System.in);
 
-	    }
+	    double num1, num2, num3;
+
+	    System.out.print( "First integer? " );
+	    num1 = keyboard.nextDouble();
+
+	    System.out.print( "Second integer? " );
+	    num2 = keyboard.nextDouble();
+
+	    System.out.print( "Third integer? " );
+	    num3 = keyboard.nextDouble();
+	  
+		 System.out.println( "The total is : " + (num1 + num2 + num3));
+
+		}
 
 
 }
